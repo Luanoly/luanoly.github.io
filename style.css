@@ -20,6 +20,9 @@ height: 100vh;
 background: #6C7A89;
 display: flex;
 border-radius: 60px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 .box {
 width: 300px;

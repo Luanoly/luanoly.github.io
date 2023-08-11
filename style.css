@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body{
-    background: linear-gradient(rgb(124, 239, 124) , rgb(255, 251, 141));
     margin: 0px;
 }
 
@@ -13,9 +12,8 @@ body{
     }
 
 .titulo {
-    color: rgb(60, 0, 0);
     font-family: 'Lobster', cursive;
-    font-size: 70px;
+    font-size: 55px;
     margin-left: 120px;
     margin-top: 20px;
 }
@@ -29,7 +27,6 @@ body{
     display: flex;
     text-decoration: none;
     font-family: 'Lobster', cursive;
-    color: rgb(0, 59, 111);
     font-size: 20px;
     margin-left: 1000px;
     margin-top: 30px;

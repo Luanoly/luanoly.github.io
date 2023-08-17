@@ -1,16 +1,10 @@
-// const button = document.getElementById('botaoTransporte');
-
-//     button.addEventListener('click', function() {
-//       console.log('Botão Transporte clicado');
-//     });
-function clickTransporte(letra) {
-  console.log(letra);
-}
-
-function clickMercado(letra) {
-  console.log(letra);
-}
-
-function clickOutros(letra) {
-  console.log(letra);
+function registrarDespesa(categoria) {
+    const valor = parseFloat(document.getElementById('entradaValor').value);
+    if (!isNaN(valor)) {
+        const historicoLista = document.getElementById('historicoLista');
+        const listItem = document.createElement('li');
+        listItem.textContent = `${categoria}: R$ ${valor.toFixed(2)}`;
+        historicoLista.appendChild(listItem);
+        document.getElementById('entradaValor').value = ''; // Limpa o campo após o registro
+    }
 }

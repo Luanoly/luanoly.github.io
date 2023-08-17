@@ -30,9 +30,9 @@
             <input type="number" id="entradaValor" name="entradaValor">
         </div>
         <div class="botao">
-            <button id="botaoTransporte" onClick="registrarDespesa('Transporte');" value="Registrado!">Transporte</button>
-            <button id="botaoMercado" onClick="registrarDespesa('Mercado');" value="Registrado!!">Mercado</button>
-            <button id="botaoOutros" onClick="registrarDespesa('Outros');" value="Registrado!!!">Outros</button>
+            <button id="botaoTransporte" onClick="clickTransporte(this.value);" value="Registrado!">Transporte</button>
+            <button id="botaoMercado" onClick="clickMercado(this.value);" value="Registrado!!">Mercado</button>
+            <button id="botaoOutros" onClick="clickOutros(this.value);" value="Registrado!!!">Outros</button>
         </div>
     </section>
     
@@ -40,5 +40,4 @@
         <h3>Histórico de Despesas</h3>
         <ul id="historicoLista"></ul>
     </div>
-
     
